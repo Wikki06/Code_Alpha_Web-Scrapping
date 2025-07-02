@@ -1,0 +1,22 @@
+Quotes Scraper
+
+This project is a simple Python web scraper that extracts quotes and their authors from the website quotes.toscrape.com and saves them into a CSV file.
+
+📌 Features
+Scrapes quotes and corresponding authors from the website's homepage.
+Saves the extracted data into a structured quotes.csv file.
+Uses requests, BeautifulSoup, and pandas for HTTP requests, HTML parsing, and data handling.
+
+🛠️ Technologies Used
+Python 3
+Requests – for making HTTP requests
+BeautifulSoup – for parsing HTML
+Pandas – for working with data and exporting to CSV
+
+🚀 Getting Started
+Make sure you have Python 3 installed along with the required libraries. You can install dependencies with:
+		pip install requests beautifulsoup4 pandas
+To run the scraper and generate the CSV file:
+		python scraper.py
+This will create a file called quotes.csv in your project directory containing all quotes and their authors from the first page of the website.
+
